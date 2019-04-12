@@ -1,0 +1,22 @@
+uuid: f8af226c-09db-4c1c-83c4-4641e00c8000
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sub_boot
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: sub_boot_content
+theme: sub_boot
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

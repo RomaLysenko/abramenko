@@ -1,0 +1,22 @@
+uuid: 1a3440f9-f9db-4021-aa1c-4f741a4e33f4
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - sub_boot
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: sub_boot_help
+theme: sub_boot
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

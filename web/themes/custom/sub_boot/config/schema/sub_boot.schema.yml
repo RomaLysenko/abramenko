@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+sub_boot.settings:
+  type: theme_settings
+  label: 'sub_boot settings'

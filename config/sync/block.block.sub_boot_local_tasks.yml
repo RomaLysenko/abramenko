@@ -1,0 +1,22 @@
+uuid: adda3aae-faae-46a1-93f4-968ed212765a
+langcode: en
+status: false
+dependencies:
+  theme:
+    - sub_boot
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: sub_boot_local_tasks
+theme: sub_boot
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
