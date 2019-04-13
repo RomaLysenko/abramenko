@@ -1,0 +1,24 @@
+uuid: c6aa82c5-6d77-482e-b6d1-bf1954b6c984
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.field.block_content.hero.body
+    - field.field.block_content.hero.field_hero
+  module:
+    - text
+id: block_content.hero.default
+targetEntityType: block_content
+bundle: hero
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_hero: true

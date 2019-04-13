@@ -1,0 +1,18 @@
+uuid: 6c3a48af-752a-42a7-8191-dd3825a4cc56
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_test_source
+_core:
+  default_config_hash: osqhkSV-ZMlYyvs_2Vl7PjC5YRQY4n-PBMop47_7y2k
+id: type_two
+label: 'Type Two'
+description: ''
+source: test
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_test_1
+  test_config_value: 'This is default value.'
+field_map: {  }

@@ -1,0 +1,25 @@
+uuid: 394db558-c072-415c-ab83-8f247d0493d9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero:2717d228-3523-4cf2-92e9-608fc94495be'
+  module:
+    - block_content
+  theme:
+    - sub_boot
+id: hero
+theme: sub_boot
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:2717d228-3523-4cf2-92e9-608fc94495be'
+settings:
+  id: 'block_content:2717d228-3523-4cf2-92e9-608fc94495be'
+  label: Hero
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

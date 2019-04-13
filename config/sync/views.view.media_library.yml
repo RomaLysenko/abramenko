@@ -1,4 +1,4 @@
-uuid: 6b1a8414-4ec5-4bfb-9df2-fa9615ec3d1f
+uuid: 6e6c0721-64b6-4ec5-85ee-1b9e30f2fea9
 langcode: en
 status: true
 dependencies:
@@ -396,6 +396,9 @@ display:
         - 'config:core.entity_view_display.media.file.default'
         - 'config:core.entity_view_display.media.image.default'
         - 'config:core.entity_view_display.media.remote_video.default'
+        - 'config:core.entity_view_display.media.type_one.default'
+        - 'config:core.entity_view_display.media.type_three.default'
+        - 'config:core.entity_view_display.media.type_two.default'
         - 'config:core.entity_view_display.media.video.default'
   page:
     display_plugin: page
@@ -427,6 +430,9 @@ display:
         - 'config:core.entity_view_display.media.file.default'
         - 'config:core.entity_view_display.media.image.default'
         - 'config:core.entity_view_display.media.remote_video.default'
+        - 'config:core.entity_view_display.media.type_one.default'
+        - 'config:core.entity_view_display.media.type_three.default'
+        - 'config:core.entity_view_display.media.type_two.default'
         - 'config:core.entity_view_display.media.video.default'
   widget:
     display_plugin: page
@@ -559,4 +565,7 @@ display:
         - 'config:core.entity_view_display.media.file.default'
         - 'config:core.entity_view_display.media.image.default'
         - 'config:core.entity_view_display.media.remote_video.default'
+        - 'config:core.entity_view_display.media.type_one.default'
+        - 'config:core.entity_view_display.media.type_three.default'
+        - 'config:core.entity_view_display.media.type_two.default'
         - 'config:core.entity_view_display.media.video.default'

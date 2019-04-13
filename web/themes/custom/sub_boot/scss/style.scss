@@ -6,3 +6,19 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i&subset=cyrillic,cyrillic-ext');
+//Pages
+@import 'pages/main';
+
+//Blocks
+@import 'blocks/block-page-search';
+@import 'blocks/logo';
+@import "blocks/block-hero";
+@import "blocks/service";
+
+
+//Components
+@import 'component/header';

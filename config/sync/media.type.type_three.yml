@@ -1,0 +1,15 @@
+uuid: 4f06b1ff-1f86-4e81-a7b1-3fe6d12efc4c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 14_1lcZyUaeP0RD01GXDVsne9Yzegxggv2RnZHxFA7A
+id: type_three
+label: 'Type Three'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_test_image
+field_map: {  }

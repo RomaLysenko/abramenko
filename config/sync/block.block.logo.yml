@@ -1,0 +1,25 @@
+uuid: 3c21df06-c536-4921-bc8c-fb7a0d832387
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8a296e96-236e-4c2a-8317-4d871eb888e3'
+  module:
+    - block_content
+  theme:
+    - sub_boot
+id: logo
+theme: sub_boot
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:8a296e96-236e-4c2a-8317-4d871eb888e3'
+settings:
+  id: 'block_content:8a296e96-236e-4c2a-8317-4d871eb888e3'
+  label: Logo
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

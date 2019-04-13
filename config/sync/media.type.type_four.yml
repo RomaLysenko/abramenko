@@ -1,0 +1,15 @@
+uuid: 93f4eb0d-e435-4142-8afc-2e609b461478
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: D5oR0TsTqjEkn05lnEMz0OpfJrvyKVA9RhbmD_Se2kw
+id: type_four
+label: 'Type Four'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_test_image
+field_map: {  }

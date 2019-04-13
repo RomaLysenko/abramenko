@@ -1,0 +1,19 @@
+uuid: e2b03a8b-8d86-4d35-b103-61a721044a4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_test_source
+_core:
+  default_config_hash: GGLasfxo4kJ1_Ey6yJYaThK7oOXR6L11UuCplEh0eFM
+id: test
+label: 'Test type'
+description: 'Test type.'
+source: test
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: ''
+  test_config_value: Kakec
+field_map:
+  metadata_attribute: field_attribute_config_test

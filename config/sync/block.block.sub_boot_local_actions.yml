@@ -1,4 +1,4 @@
-uuid: b9aad21b-adf2-45e6-ae95-e4b9a0ffe675
+uuid: 5faf6ba7-93b3-4aaa-8d26-1d372d8496a9
 langcode: en
 status: false
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: sub_boot_local_actions
 theme: sub_boot
 region: content
-weight: -20
+weight: -1
 provider: null
 plugin: local_actions_block
 settings:

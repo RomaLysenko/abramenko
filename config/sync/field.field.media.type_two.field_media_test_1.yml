@@ -1,0 +1,21 @@
+uuid: d6a49f43-ce2c-4cf4-8f85-4bf67d83e1ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_test_1
+    - media.type.type_two
+_core:
+  default_config_hash: FqxZIBBFGq_h5BThr-SHdcoOUCJkTlrHXu12nR5ovXE
+id: media.type_two.field_media_test_1
+field_name: field_media_test_1
+entity_type: media
+bundle: type_two
+label: field_media_test_1
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

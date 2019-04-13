@@ -1,11 +1,11 @@
-uuid: 562f42ff-a771-4af3-8244-fdf12965441e
+uuid: 47e5a860-9731-4357-ae8a-06b521b6ed2f
 name: abramenko
 mail: r.lysenko@internetdevels.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /home
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

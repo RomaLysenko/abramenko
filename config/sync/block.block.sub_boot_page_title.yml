@@ -1,4 +1,4 @@
-uuid: c498660b-93be-4f07-ac98-d52de5518c4d
+uuid: c97f5f48-964e-4a05-85b9-fba0c94cb0a1
 langcode: en
 status: false
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: sub_boot_page_title
 theme: sub_boot
 region: content
-weight: -50
+weight: -4
 provider: null
 plugin: page_title_block
 settings:

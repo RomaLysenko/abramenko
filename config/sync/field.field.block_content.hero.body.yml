@@ -1,0 +1,22 @@
+uuid: 33059671-d393-4f72-8c42-8bcd8431f6df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.hero.body
+field_name: body
+entity_type: block_content
+bundle: hero
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

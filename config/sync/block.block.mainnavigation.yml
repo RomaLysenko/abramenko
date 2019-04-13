@@ -1,0 +1,24 @@
+uuid: 0eba9cd8-31c1-491a-897a-a42290f362fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - sub_boot
+id: mainnavigation
+theme: sub_boot
+region: navigation_collapsible
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
