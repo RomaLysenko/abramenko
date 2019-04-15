@@ -1,0 +1,28 @@
+uuid: cde48084-d4e7-41bc-a7bb-efaf8297c2b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.post_with_video
+  module:
+    - link
+id: node.post_with_video.field_link
+field_name: field_link
+entity_type: node
+bundle: post_with_video
+label: Link
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:#'
+    title: 'visit me'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

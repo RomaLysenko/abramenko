@@ -7,12 +7,10 @@
  * Place your custom PHP code in this file.
  */
 
-
 function sub_boot_preprocess_block(&$variables){
-  if ($variables['elements']['#id'] == 'hero') {
+  if ($variables['elements']['#base_plugin_id'] == 'block_content' && $variables['elements']['#id'] == 'hero') {
     $url = file_create_url($variables['content']['#block_content']->field_hero->entity->getFileUri());
     $variables['back_ground_url'] = $url;
   }
 }
-
 

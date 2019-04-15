@@ -1,0 +1,29 @@
+uuid: f27269cc-1110-4f40-85b5-c5ceafb92cce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_category_photo
+    - media.type.gallary
+    - taxonomy.vocabulary.category_photo
+id: media.gallary.field_category_photo
+field_name: field_category_photo
+entity_type: media
+bundle: gallary
+label: 'category photo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category_photo: category_photo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

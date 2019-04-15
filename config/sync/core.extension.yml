@@ -3,9 +3,11 @@ module:
   admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
   automated_cron: 0
+  better_exposed_filters: 0
   big_pipe: 0
   block: 0
   block_content: 0
+  blueasy_custom: 0
   breakpoint: 0
   ckeditor: 0
   color: 0
@@ -16,6 +18,7 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
@@ -24,11 +27,17 @@ module:
   field_group: 0
   field_ui: 0
   file: 0
+  file_mdm: 0
+  file_mdm_exif: 0
+  file_mdm_font: 0
   filter: 0
   help: 0
   history: 0
   image: 0
   image_browser: 0
+  image_effects: 0
+  kint: 0
+  last_tweets: 0
   layout_discovery: 0
   link: 0
   media: 0
@@ -60,7 +69,12 @@ module:
   text: 0
   toolbar: 0
   tour: 0
+  twitter_block: 0
   user: 0
+  video_embed_field: 0
+  video_embed_media: 0
+  video_embed_wysiwyg: 0
+  views_fieldsets: 0
   views_ui: 0
   menu_link_content: 1
   views: 10

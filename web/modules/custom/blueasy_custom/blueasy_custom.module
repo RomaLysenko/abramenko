@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file contains hooks and other functions
+ */
+
+/**
+ *Implements hoo_form_alter.
+ */
+function blueasy_custom_form_alter(&$form, &$form_state, &$form_id){
+
+  switch ($form_id){
+    case 'views_exposed_form':
+      $form['field_category_photo_target_id']['#options']['All'] = t('All');
+  }
+}

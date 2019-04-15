@@ -1,0 +1,101 @@
+.block-views-blockgallery-block-1 {
+  background: #ffffff;
+
+  .container {
+    margin: 0 auto;
+    padding-top: 80px;
+    position: relative;
+    .block-title {
+      margin: 0;
+      position: absolute;
+      display: inline-block;
+      font-size: 30px;
+      font-weight: 300;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      color: #515f67;
+      @media (max-width: 992px) {
+        position: static;
+      }
+      @media (max-width: 762px){
+        margin-left: 15px ;
+
+      }
+      &:after {
+        content: '';
+        display: block;
+        bottom: -6px;
+        height: 2px;
+        width: 45px;
+        background: #515f67;
+      }
+    }
+    .row {
+      margin: 0;
+      .view-filters {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        @media (max-width: 992px) {
+          margin-top: 30px;
+          display: flex;
+          justify-content: flex-start;
+        }
+         width: 100%;
+        .bef-exposed-form {
+          .form-inline {
+            .form-item {
+              display: inline-block;
+              .control-label {
+                padding: 15px;
+                margin-right: 50px;
+                font-family: "Open Sans", sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #8a9398;
+                text-decoration: none;
+                @media (max-width: 992px) {
+                  margin-right: 10px;
+                }
+              }
+              input {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .view-gallery {
+    @media (max-width: 762px){
+      display: flex;
+      flex-direction: column;
+    }
+    .view-content{
+      .views-row{
+        padding: 0;
+        margin: 0 2px 24px 0;
+        @media (max-width: 479px){
+          width: 100%;
+        }
+      }
+      .views-field-field-media-image{
+        @media (max-width: 479px){
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+.active-filter{
+  border: 2px solid #4bcaff;
+  color: #4bcaff;
+  padding: 13px !important;
+}
+
+
+
+
