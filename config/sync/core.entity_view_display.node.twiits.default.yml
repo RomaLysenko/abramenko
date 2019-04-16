@@ -1,0 +1,24 @@
+uuid: 09b6f94b-005a-49c5-bb3b-5ce2fae06839
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.twiits.field_last_twiit
+    - node.type.twiits
+  module:
+    - text
+    - user
+id: node.twiits.default
+targetEntityType: node
+bundle: twiits
+mode: default
+content:
+  field_last_twiit:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  links: true

@@ -50,9 +50,6 @@
       .views-field-field-link{
         margin-top: 20px;
         .field-content{
-          @media #{$mobile} {
-            text-align: center;
-          }
           a{
             display: inline-block;
             border: 2px solid #353f46;

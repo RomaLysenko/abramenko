@@ -1,0 +1,20 @@
+uuid: 12a2f0bc-b1ca-47ec-ab32-8af3d0ca96db
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.twiits
+  module:
+    - user
+id: node.twiits.teaser
+targetEntityType: node
+bundle: twiits
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 2d517637-54ff-421c-998a-8fc8d948a580
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_right_block_text
+    - node.type.who_is_
+  module:
+    - text
+id: node.who_is_.field_right_block_text
+field_name: field_right_block_text
+entity_type: node
+bundle: who_is_
+label: right-block-text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

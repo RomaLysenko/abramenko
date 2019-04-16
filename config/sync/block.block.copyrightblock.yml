@@ -1,0 +1,25 @@
+uuid: d09e4b3d-d3f6-461e-958c-50ead9ca2c3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_block
+  theme:
+    - sub_boot
+id: copyrightblock
+theme: sub_boot
+region: footer
+weight: -4
+provider: null
+plugin: copyright_block
+settings:
+  id: copyright_block
+  label: 'Copyright block'
+  provider: copyright_block
+  label_display: '0'
+  start_year: '2019'
+  seperator: '-'
+  text:
+    value: "<p>© [date:html_year]</p>\r\n"
+    format: basic_html
+visibility: {  }

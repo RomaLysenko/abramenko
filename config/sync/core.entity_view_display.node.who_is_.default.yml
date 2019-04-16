@@ -1,0 +1,50 @@
+uuid: 8ac9995a-431e-4f5a-b481-39bf503b8a6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.who_is_.body
+    - field.field.node.who_is_.field_bg_image
+    - field.field.node.who_is_.field_right_block_text
+    - field.field.node.who_is_.field_social_links
+    - node.type.who_is_
+  module:
+    - image
+    - text
+    - user
+id: node.who_is_.default
+targetEntityType: node
+bundle: who_is_
+mode: default
+content:
+  addtoany:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_bg_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_right_block_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_social_links: true
+  links: true

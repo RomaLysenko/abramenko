@@ -7,9 +7,14 @@ dependencies:
     - views.view.gallery
     - views.view.just_default_section
     - views.view.service
+    - views.view.testimonials
+    - views.view.twiits
+    - views.view.who_is_
+    - webform.webform.contact_us
   module:
     - panels
     - views
+    - webform
 id: home-panels_variant-0
 label: Home
 variant: panels_variant
@@ -23,7 +28,7 @@ variant_settings:
       views_label: ''
       items_per_page: none
       region: content
-      weight: -1
+      weight: -4
       uuid: 86f3f260-f547-4258-84a4-f74066413598
       context_mapping: {  }
     cb57d08e-6523-4880-90c3-64e6fd82c1bb:
@@ -34,7 +39,7 @@ variant_settings:
       views_label: ''
       items_per_page: none
       region: content
-      weight: 0
+      weight: -3
       uuid: cb57d08e-6523-4880-90c3-64e6fd82c1bb
       context_mapping: {  }
     c47a2455-085d-473e-8e2c-fa2c4b9982e3:
@@ -45,8 +50,53 @@ variant_settings:
       views_label: ''
       items_per_page: none
       region: content
-      weight: 1
+      weight: -2
       uuid: c47a2455-085d-473e-8e2c-fa2c4b9982e3
+      context_mapping: {  }
+    532ece40-dcf5-4060-9edd-e8568a49bece:
+      id: 'views_block:twiits-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -1
+      uuid: 532ece40-dcf5-4060-9edd-e8568a49bece
+      context_mapping: {  }
+    8a2ca5cc-d9b9-443e-af19-e29d39cd74e4:
+      id: 'views_block:who_is_-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 8a2ca5cc-d9b9-443e-af19-e29d39cd74e4
+      context_mapping: {  }
+    de68eee9-cab8-4975-b868-46a8500ce800:
+      id: 'views_block:testimonials-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 1
+      uuid: de68eee9-cab8-4975-b868-46a8500ce800
+      context_mapping: {  }
+    b9d9b537-b604-4dba-bbe5-9f6d98990639:
+      id: webform_block
+      label: Contact
+      provider: webform
+      label_display: visible
+      webform_id: contact_us
+      default_data: ''
+      redirect: false
+      region: content
+      weight: 2
+      uuid: b9d9b537-b604-4dba-bbe5-9f6d98990639
       context_mapping: {  }
   id: panels_variant
   uuid: 50efe4cb-9ca3-4dfa-b512-70ab10f7fa55

@@ -1,0 +1,22 @@
+uuid: f9cee4df-eea8-41cc-a1ac-882c1fc0241f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_twiit
+    - node.type.twiits
+  module:
+    - text
+id: node.twiits.field_last_twiit
+field_name: field_last_twiit
+entity_type: node
+bundle: twiits
+label: 'Last twiit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,55 @@
+.block-views-blocktestimonials-block-1{
+  padding: 80px 0;
+  background: #ffffff;
+  .block-title {
+    margin: 0;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #515f67;
+    &:after {
+      content: '';
+      display: block;
+      bottom: -10px;
+      height: 2px;
+      width: 45px;
+      background: #515f67;
+    }
+  }
+  .view-content {
+    position: relative;
+    .views-field-body {
+      margin-top: 50px;
+      .field-content {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 28px;
+        line-height: 50px;
+        font-weight: 300;
+        color: #515f67;
+      }
+    }
+    .views-field-field-author {
+      margin-top: 30px;
+      .field-content {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        line-height: 50px;
+        font-weight: 700;
+        color: #4bcaff;
+      }
+    }
+    &:after{
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: '';
+      display: block;
+      background: url("../images/col.png") center no-repeat;
+      width: 32px;
+      height: 26px;
+      background-size: cover;
+    }
+  }
+}

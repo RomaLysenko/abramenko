@@ -1,0 +1,22 @@
+uuid: a43a8a47-b481-468f-ac4f-2adec919d651
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.who_is_
+  module:
+    - text
+id: node.who_is_.body
+field_name: body
+entity_type: node
+bundle: who_is_
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
