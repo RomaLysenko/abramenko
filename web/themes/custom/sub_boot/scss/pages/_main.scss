@@ -6,6 +6,7 @@
   padding: 80px 0;
   justify-content: space-between;
   background: #353f47;
+  width: 100%;
   .region-footer {
     width: 100%;
     max-width: 1200px;
@@ -30,6 +31,9 @@
       .menu--main{
         li{
           display: inline-block;
+          @media #{$mobile} {
+            display: inline;
+          }
           a{
             padding: 0 15px;
             text-transform: uppercase;
@@ -46,7 +50,17 @@
             }
           }
         }
+        @media #{$mobile} {
+          text-align: center;
+        }
       }
+    }
+
+    @media #{$mobile} {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

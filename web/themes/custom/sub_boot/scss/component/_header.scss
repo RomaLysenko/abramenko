@@ -7,28 +7,28 @@ body.navbar-is-fixed-top{
   }
 }
 
-  header.navbar {
-    height: 150px;
-    background: rgba(0, 0, 0, 0.5);
-    border: 0;
-    .navbar-toggle {
-      margin-top: 56px;
-    }
-
-    .navbar-collapse {
-      .menu--main {
-        float: none;
-      }
-
-      @media #{$mobile} {
-        background: rgba(0, 0, 0, 0.8);
-      }
-    }
+header.navbar {
+  height: 150px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 0;
+  .navbar-toggle {
+    margin-top: 56px;
   }
 
-  .region-navigation {
-    float: left;
+  .navbar-collapse {
+    .menu--main {
+      float: none;
+    }
+
+    @media #{$mobile} {
+      background: rgba(0, 0, 0, 0.8);
+    }
   }
+}
+
+.region-navigation {
+  float: left;
+}
 
   #block-mainnavigation {
     ul {

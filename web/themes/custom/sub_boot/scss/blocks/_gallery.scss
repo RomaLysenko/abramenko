@@ -1,9 +1,9 @@
 .block-views-blockgallery-block-1 {
   background: #ffffff;
-
+  padding: 80px 0;
   .container {
     margin: 0 auto;
-    padding-top: 80px;
+
     position: relative;
     .block-title {
       margin: 0;
@@ -41,8 +41,11 @@
           display: flex;
           justify-content: flex-start;
         }
-         width: 100%;
+        width: 100%;
         .bef-exposed-form {
+          @media #{$mobile} {
+            text-align: center;
+          }
           .form-inline {
             .form-item {
               display: inline-block;
@@ -75,8 +78,7 @@
     }
     .view-content{
       .views-row{
-        padding: 0;
-        margin: 0 2px 24px 0;
+        padding: 5px;
         @media (max-width: 479px){
           width: 100%;
         }
@@ -94,6 +96,10 @@
   border: 2px solid #4bcaff;
   color: #4bcaff;
   padding: 13px !important;
+  @media #{$mobile} {
+    display: inline;
+    padding: 5px !important;
+  }
 }
 
 
