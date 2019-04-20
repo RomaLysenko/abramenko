@@ -1,5 +1,19 @@
 #block-sub-boot-search{
+  max-width: 400px;
   @media #{$tablet} {
-    display: none;
+    margin-top: 56px;
+    float: right;
+    .input-group{
+      input{
+        display: none;
+      }
+      .input-group-btn{
+        .btn-primary{
+          border-radius: 4px;
+          background: none;
+          border: none;
+        }
+      }
+    }
   }
 }

@@ -272,7 +272,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Service
+      title: '<span id="service">Service<span>'
       header: {  }
       footer: {  }
       empty: {  }
@@ -297,6 +297,7 @@ display:
     display_options:
       display_extenders: {  }
       display_description: ''
+      block_description: '<span id="service">Service<span>'
     cache_metadata:
       max-age: -1
       contexts:

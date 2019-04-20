@@ -33,10 +33,10 @@ variant_settings:
       context_mapping: {  }
     cb57d08e-6523-4880-90c3-64e6fd82c1bb:
       id: 'views_block:gallery-block_1'
-      label: ''
+      label: Portfolio
       provider: views
       label_display: visible
-      views_label: ''
+      views_label: Portfolio
       items_per_page: none
       region: content
       weight: -3

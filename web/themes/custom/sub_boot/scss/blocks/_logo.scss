@@ -1,12 +1,21 @@
 #block-logo {
   line-height: 150px;
   #logo {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 700;
-    color: #ffffff;
-    #blue-letter {
-      color: #4bcaff;
+    a {
+      text-decoration: none;
+      &:visited {
+        color: #ffffff;
+      }
+      &:above-level {
+        color: #ffffff;
+      }
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 700;
+      color: #ffffff;
+      #blue-letter {
+        color: #4bcaff;
+      }
     }
   }
 }

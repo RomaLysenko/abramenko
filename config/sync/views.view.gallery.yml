@@ -197,8 +197,8 @@ display:
             remember: false
             multiple: false
             remember_roles:
-              anonymous: anonymous
               authenticated: authenticated
+              anonymous: anonymous
               administrator: administrator
             reduce: false
           is_grouped: false
